@@ -20,11 +20,15 @@ Bash
 
 mvn clean test
 
+mvn clean test -Dtest=SliderTest -Dvalor=1.5 -Dbrowser=chrome
+
+
 ## 📸 Captura d'Evidències
 
 El framework inclou un sistema de Listeners personalitzat (TestListener.java). En cas que qualsevol test falli, es capturarà automàticament una captura de pantalla que es guardarà a la ruta:
 
 📁 /screenshots
+
 
 ## ⚙️ Paràmetres i Opcions Especials
 

@@ -44,6 +44,8 @@ RedirectTest.java: Test de redirecció de pàgines (Opció personal)
 
 SliderTest.java: Test per comprovar el funcionament correcte d'un slider horitzontal (Opció personal)
 
+FormulariTest.javaERROR: Intent d'utilització d'un formulari de Google (vegeu notes al final)
+
 
 ## ⚙️ Paràmetres i Opcions Especials
 

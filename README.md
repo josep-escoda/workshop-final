@@ -33,10 +33,15 @@ El framework inclou un sistema de Listeners personalitzat (TestListener.java). E
 ## 🌐 Tests implementats
 
 BaseTest.java: Classe base de la que hereten la resta de tests
+
 LoginTest.java: Test d'accés correcte mitjançant formulari
+
 LoginTestErroni.java: Test d'accés correcte mitjançant formulari
+
 NavigationTest.java: Test de navegació per diversos cercadors
+
 RedirectTest.java: Test de redirecció de pàgines (Opció personal)
+
 SliderTest.java: Test per comprovar el funcionament correcte d'un slider horitzontal (Opció personal)
 
 

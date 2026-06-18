@@ -46,6 +46,8 @@ SliderTest.java: Test per comprovar el funcionament correcte d'un slider horitzo
 
 FormulariTest.javaERROR: Intent d'utilització d'un formulari de Google (vegeu notes al final)
 
+FormulariTestSimple.java: Formulari simple de test sobre login
+
 
 ## ⚙️ Paràmetres i Opcions Especials
 

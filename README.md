@@ -47,6 +47,6 @@ TMPDIR=$HOME mvn clean test -Dtest=RedirectTest -Dbrowser=firefox
 
 ## 📝 Notes del Desenvolupament i Arquitectura
 
-    Gestió de Formularis Dinàmics: Durant el desenvolupament s'ha testejat l'automatització sobre la plataforma Google Forms (FormulariTest.javaERROR). A causa de l'ofuscació de codi, la generació dinàmica de components flotants fora de la vista i les contramesures antibot de Google, la interacció amb els elements va presentar problemes d'interactivitat (fins i tot aplicant Deep Linking per URL).
+Gestió de Formularis Dinàmics: Durant el desenvolupament s'ha testejat l'automatització sobre la plataforma Google Forms (FormulariTest.javaERROR). A causa de l'ofuscació de codi, la generació dinàmica de components flotants fora de la vista i les contramesures antibot de Google, la interacció amb els elements va presentar problemes d'interactivitat (fins i tot aplicant Deep Linking per URL).
 
-    Decisió de Disseny: Atès que la lògica de validació d'un formulari (interacció amb camps de text, enviament i asseveracions) és conceptualment idèntica a la dels casos de prova implementats a les pantalles de Login, es dóna per coberta aquesta competència en la suite principal de l'aplicació, garantint així l'estabilitat i robustesa del framework final de cara al lliurament.
+Decisió de Disseny: Atès que la lògica de validació d'un formulari (interacció amb camps de text, enviament i asseveracions) és conceptualment idèntica a la dels casos de prova implementats a les pantalles de Login, es dóna per coberta aquesta competència en la suite principal de l'aplicació, garantint així l'estabilitat i robustesa del framework final de cara al lliurament.

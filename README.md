@@ -30,7 +30,7 @@ El framework inclou un sistema de Listeners personalitzat (TestListener.java). E
 📁 /screenshots
 
 
-## Tests implementats
+## 🌐 Tests implementats
 
 BaseTest.java: Classe base de la que hereten la resta de tests
 LoginTest.java: Test d'accés correcte mitjançant formulari

@@ -30,12 +30,12 @@ El framework inclou un sistema de Listeners personalitzat (TestListener.java). E
 
 El framework és dinàmic i permet passar variables en temps d'execució des de la terminal amb el flag -D:
 
-Paràmetre	Valors possibles / Descripció	Exemple de text / Valor per defecte
-
--Dbrowser	chrome | firefox | chromeheadless	chrome (per defecte)
--Duser	Nom d'usuari per als tests de Login	tomsmith
--Dpassword	Contrasenya per als tests de Login	SuperSecretPassword!
--Dvalor	Valor de destí per al test del Slider	4.5
+| Paràmetre | Descripció | Exemple / Valor per defecte |
+| :--- | :--- | :--- |
+| **`-Dbrowser`** | Selecció del navegador per a l'execució del test.<br>*(Opcions: `chrome`, `firefox` o `chromeheadless`)* | `chrome` |
+| **`-Duser`** | Credencial d'accés per a las proves de Login. | `tomsmith` |
+| **`-Dpassword`** | Contrasenya vinculada a l'usuari de les proves de Login. | `SuperSecretPassword!` |
+| **`-Dvalor`** | Valor numèric objectiu on s'ha de desplaçar el component Slider. | `4.5` |
 
 
 ## 🦊 Nota important per a Firefox a Linux
